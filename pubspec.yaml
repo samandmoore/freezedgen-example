@@ -1,0 +1,22 @@
+name: freezedgen
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  freezed_annotation: ^0.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+builders:
+  freezed: ^0.10.6
+
+flutter:
+  uses-material-design: true
